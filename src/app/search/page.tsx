@@ -22,6 +22,8 @@ async function SearchPage({ searchParams }: Props) {
 
   if (!results) return <div>No results...</div>;
 
+  console.log(searchParams.url)
+
   return (
     <section>
       <div className="mx-auto max-w-7xl p-6 lg:px-8">
